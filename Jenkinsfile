@@ -1,3 +1,5 @@
+// user name -- admin password-- admin
+
 node {
 	stage('Build') {
 		echo "Build"
@@ -5,4 +7,6 @@ node {
 	stage('Test') {
 		echo "Test"
 	}
+	stage('Integration') {
+	echo "Integration"		
 }
