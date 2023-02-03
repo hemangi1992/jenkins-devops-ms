@@ -1,7 +1,7 @@
 // user name -- admin password-- admin
 pipeline{
 	//agent any
-	agent {docker {image 'maven:3.6.3'}}
+	agent {docker {image 'alpine'}}
 	stages {
 		stage('Build') {
 			steps{
